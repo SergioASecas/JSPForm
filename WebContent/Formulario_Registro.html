@@ -1,0 +1,44 @@
+<HTML>
+	<BODY>
+		<H2>FORMULARIO DE REGISTRO</H2>
+		<Form action="Registro.jsp">
+		<table width="35%" border="0">
+			<tr>
+				<td width="13%"><label for="Nombre:">Nombre</label></td>
+				<td width="13%"><input type="text" name="Nombre" id="Nombre"></td>
+			</tr>
+			<tr>
+				<td><label for="Apellido:">Apellido</label></td>
+				<td><input type="text" name="Apellido" id=Apellido></td>
+			</tr>
+			<tr>
+				<td><label for="Usuario:">Usuario</label></td>
+				<td><input type="text" name="Usuario" id="Usuario"></td>
+			</tr>	
+			<tr>
+				<td><Label for="Contrasena:">Contraseña</Label></td>
+				<td><input type="password" name="Contrasena" id="Contrasena"></td>
+			</tr>
+			<tr>	
+				<td><label for="Pais">País</label></td>
+				<td>
+					<select name="Pais">
+						<option>Argentina</option>
+						<option>Colombia</option>
+						<option>Nicaragua</option>						
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="Tecnologias">Tecnologías</label></td>
+				<td><label><input type="radio" name="Tecnologias" value="Java"  id="Java"></label>Java<br>
+					<label><input type="radio" name="Tecnologias" value="PHP" id="PHP"></label>PHP<br>
+					<label><input type="radio" name="Tecnologias" value="JavaScript" id="JavaScript"></label>JavaScript<br></td>					
+			</tr>
+			<tr>
+				<td><input type="submit" value=registrar></td>				
+			</tr>
+		</table>	
+		</Form>
+	</BODY>
+</HTML>
